@@ -1,0 +1,39 @@
+plot line run vs over(per match including wickets)  match filter
+     hist per over
+
+
+showing 6 best batsman (avg, highest, runs, catches, wickets, strike rate)
+
+showing 6 best bowlers (avg, highest, runs, catches, wickets, economy)
+
+
+1st batting vs 1st bowling wins(hist)
+
+teams with maximum wins(bar chart) 
+
+
+
+
+
+runs count
+
+best batsmen
+
+best bowlers
+
+best teams
+
+no of matches won based on toss seaborn
+
+
+
+#def calculate_batsman_dtails(batsmen) :
+batsmen_list = []
+for row in large1.itertuples() :
+    
+    batsmen_list.append({'name' : row.Index, 'runs' : row.batsman_runs, 'matches' : })
+    #print(row)
+    
+batsmen_list
+
+run vs over (filter) line graph and bar graph
